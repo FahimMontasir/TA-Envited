@@ -1,0 +1,54 @@
+.event {
+  height: 100vh;
+}
+.event__image {
+  width: 375px;
+  height: 375px;
+}
+
+.event__title {
+  width: 327px;
+}
+
+.event__title-name {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.event__title-host {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.event__box {
+  width: 349.57px;
+  height: 64px;
+}
+
+.event__box-title {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+}
+.event__box-subtitle {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.event__icon {
+  width: 48px;
+  height: 48px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
