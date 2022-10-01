@@ -1,6 +1,8 @@
+import { useNavigate } from "react-router-dom";
 import "./landing.css";
 
 function HomePage() {
+  const navigate = useNavigate();
   return (
     <main className="landing bg-secondaryPurples-100 flex flex-col items-center justify-between">
       <section className="landing__hero">
@@ -19,7 +21,10 @@ function HomePage() {
         src="/Landing-page-image.svg"
         alt="envited-landing"
       />
-      <button className="landing__button text-neutrals-white-100 mb-5">
+      <button
+        onClick={() => navigate("/create")}
+        className="landing__button text-neutrals-white-100 mb-5"
+      >
         🎉 Create my event
       </button>
     </main>

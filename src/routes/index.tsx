@@ -15,7 +15,17 @@ export default function Router() {
       path: "/",
       element: <HomePage />,
     },
+    {
+      path: "/create",
+      element: <CreateEvent />,
+    },
+    {
+      path: "/event",
+      element: <Event />,
+    },
   ]);
 }
 
 const HomePage = Loadable(lazy(() => import("../pages/landing")));
+const CreateEvent = Loadable(lazy(() => import("../pages/create-event")));
+const Event = Loadable(lazy(() => import("../pages/event")));
