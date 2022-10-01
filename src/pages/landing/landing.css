@@ -1,0 +1,47 @@
+.landing {
+  height: 100vh;
+}
+
+.landing__hero {
+  width: 321px;
+  height: 160px;
+  padding-top: 60px;
+}
+
+.landing__hero-heading {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.landing__hero-snap {
+  background: linear-gradient(90deg, #8456ec 24.2%, #e87bf8 120.46%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.landing__hero-sub {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.landing__image {
+  width: 165.63px;
+  height: 292px;
+  filter: drop-shadow(0px 0px 17.6435px rgba(0, 0, 0, 0.05));
+  border-radius: 13.2326px;
+}
+
+.landing__button {
+  width: 187px;
+  height: 50px;
+  background: linear-gradient(90deg, #8456ec 3.25%, #e87bf8 100%);
+  border-radius: 10px;
+}

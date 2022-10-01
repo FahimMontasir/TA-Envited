@@ -18,4 +18,4 @@ export default function Router() {
   ]);
 }
 
-const HomePage = Loadable(lazy(() => import("../pages/home")));
+const HomePage = Loadable(lazy(() => import("../pages/landing")));
