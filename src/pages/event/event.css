@@ -1,10 +1,6 @@
 .event {
   height: 100vh;
 }
-.event__image {
-  width: 375px;
-  height: 375px;
-}
 
 .event__title {
   width: 327px;
